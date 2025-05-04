@@ -17,5 +17,6 @@ export function capitalize(str) {
       throw new Error("Input must be a string");
     }
     const reversed = str.split('').reverse().join('');
+    
     return str === reversed;
   }

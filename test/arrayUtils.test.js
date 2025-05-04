@@ -21,6 +21,7 @@ describe('arrayUtils', () => {
       expect(() => findMin(null)).to.throw('Input must be an array');
     });
   });
+  
 
   describe('removeDuplicates()', () => {
     it('removes duplicate values from array', () => {

@@ -29,4 +29,5 @@ describe('mathUtils', () => {
       expect(() => divide(5, 0)).to.throw('Cannot divide by zero');
     });
   });
+  
 });

@@ -41,6 +41,7 @@ describe('🧪 usersListUtils module', () => {
     });
   });
 
+  
   describe('🔍 findUserById()', () => {
     it('should return the user with the given ID', () => {
       const user = findUserById(testUsers, 11);

@@ -15,6 +15,7 @@ export function capitalize(str) {
   export function isPalindrome(str) {
     if (typeof str !== 'string') {
       throw new Error("Input must be a string");
+      
     }
     const reversed = str.split('').reverse().join('');
     return str === reversed;

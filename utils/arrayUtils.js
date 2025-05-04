@@ -18,4 +18,5 @@ export function findMax(arr) {
       throw new Error("Input must be an array");
     }
     return [...new Set(arr)];
+    
   }

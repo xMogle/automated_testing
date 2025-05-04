@@ -17,6 +17,7 @@ export function filterUsersByAge(users, minAge, maxAge) {
    * @param {Array} users - List of users.
    * @returns {Array} - Sorted list of users.
    */
+  
   export function sortUsersByName(users) {
     if (!Array.isArray(users)) {
       throw new Error('Users must be an array');

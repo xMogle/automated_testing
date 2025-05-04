@@ -16,4 +16,5 @@ export function add(a, b) {
       throw new Error("Cannot divide by zero");
     }
     return a / b;
+    
   }
