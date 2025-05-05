@@ -1,8 +1,6 @@
 import { expect } from 'chai';
 import { findMax, findMin, removeDuplicates } from '../utils/arrayUtils.js';
 
-console . log ( ":::;;;;;;;;" );;;;;;
-
 describe('arrayUtils', () => {
   describe('findMax()', () => {
     it('returns the maximum number in an array', () => {
@@ -23,7 +21,6 @@ describe('arrayUtils', () => {
       expect(() => findMin(null)).to.throw('Input must be an array');
     });
   });
-  
 
   describe('removeDuplicates()', () => {
     it('removes duplicate values from array', () => {
